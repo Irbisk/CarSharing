@@ -1,0 +1,753 @@
+2023-02-05 21:26:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER,  NAME VARCHAR(255) ) [42101-200]
+2023-02-07 00:52:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:52:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:53:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:53:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:54:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:54:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:54:24 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-02-07 00:56:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:56:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE COMPANY(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME VARCHAR(255) UNIQUE NOT NULL ) [42101-200]
+2023-02-07 00:56:11 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-02-07 00:57:33 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-02-07 01:00:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-02-07 01:00:52 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-02-07 01:11:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANYVALUES" not found; SQL statement:
+INSERT INTO COMPANYVALUES (0, 'Super company') [42102-200]
+2023-02-07 01:12:54 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANYVALUES" not found; SQL statement:
+INSERT INTO COMPANYVALUES (0, 'Super company') [42102-200]
+2023-02-07 01:17:41 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "Super company" [22018-200]
+2023-02-08 21:39:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:39:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:40:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:40:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:41:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:41:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:43:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS car (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:43:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS car (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:43:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS car (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-08 21:43:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN[*] KEY REFERENCES COMPANY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS car (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT FOREIGN KEY REFERENCES COMPANY (ID)) [42001-200]
+2023-02-15 20:57:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO CUSTOMER VALUES (0, '') [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.DBHandler.insert(DBHandler.java:78)
+	at carsharing.CustomerImplementation.createCustomer(CustomerImplementation.java:28)
+	at carsharing.Programm.createCustomer(Programm.java:141)
+	at carsharing.Programm.run(Programm.java:30)
+	at carsharing.Main.main(Main.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:00:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO CUSTOMER VALUES (0, 'First customer') [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.DBHandler.insert(DBHandler.java:78)
+	at carsharing.CustomerImplementation.createCustomer(CustomerImplementation.java:28)
+	at carsharing.Programm.createCustomer(Programm.java:142)
+	at carsharing.Programm.run(Programm.java:31)
+	at carsharing.Main.main(Main.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:02:58 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO CUSTOMER VALUES (0, 'First customer') [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.DBHandler.insert(DBHandler.java:78)
+	at carsharing.CustomerImplementation.createCustomer(CustomerImplementation.java:30)
+	at carsharing.Programm.createCustomer(Programm.java:142)
+	at carsharing.Programm.run(Programm.java:31)
+	at carsharing.Main.main(Main.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:06:11 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-02-15 21:23:52 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT NAME FROM COMPANY [42102-200]
+2023-02-15 21:25:42 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT NAME FROM COMPANY [42102-200]
+2023-02-15 21:26:27 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT NAME FROM COMPANY [42102-200]
+2023-02-15 21:28:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT NAME FROM COMPANY [42102-200]
+2023-02-15 21:28:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ID" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:352)
+	at carsharing.DBHandler.readCompanies(DBHandler.java:120)
+	at carsharing.DBHandler.createDB(DBHandler.java:40)
+	at carsharing.Main.main(Main.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:28:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ID" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:352)
+	at carsharing.DBHandler.readCompanies(DBHandler.java:120)
+	at carsharing.DBHandler.createDB(DBHandler.java:40)
+	at carsharing.Main.main(Main.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:28:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ID" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:352)
+	at carsharing.DBHandler.readCompanies(DBHandler.java:120)
+	at carsharing.DBHandler.createDB(DBHandler.java:40)
+	at carsharing.Main.main(Main.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:29:01 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT NAME, ID FROM COMPANY [42102-200]
+2023-02-15 21:29:10 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT (NAME, ID) FROM COMPANY [42102-200]
+2023-02-15 21:29:10 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "NAME" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:316)
+	at carsharing.DBHandler.readCompanies(DBHandler.java:119)
+	at carsharing.DBHandler.createDB(DBHandler.java:40)
+	at carsharing.Main.main(Main.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:29:10 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "NAME" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:316)
+	at carsharing.DBHandler.readCompanies(DBHandler.java:119)
+	at carsharing.DBHandler.createDB(DBHandler.java:40)
+	at carsharing.Main.main(Main.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:29:10 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "NAME" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:316)
+	at carsharing.DBHandler.readCompanies(DBHandler.java:119)
+	at carsharing.DBHandler.createDB(DBHandler.java:40)
+	at carsharing.Main.main(Main.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 21:30:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-15 21:44:29 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-15 21:48:05 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-15 21:49:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-15 21:49:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-15 21:50:59 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 18:17:04 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 18:17:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 18:17:04 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 18:22:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 18:22:14 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 18:22:14 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 18:26:06 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 18:26:06 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 18:26:06 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 18:33:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 18:33:49 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 18:33:49 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 18:57:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 18:57:13 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 18:57:13 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 19:21:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 19:21:41 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 19:21:41 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 19:23:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 19:23:36 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 19:23:36 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 19:23:37 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT ([*]NAME, COMPANY_ID) INTO CAR VALUES ('Hyundai Venue', 1)"; expected "INTO"; SQL statement:
+INSERT (NAME, COMPANY_ID) INTO CAR VALUES ('Hyundai Venue', 1) [42001-200]
+2023-02-16 19:25:25 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 19:25:25 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 19:25:25 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 19:25:25 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "NAME" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3195)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:316)
+	at carsharing.DBHandler.readCars(DBHandler.java:257)
+	at carsharing.CarImplementation.getCarsList(CarImplementation.java:18)
+	at carsharing.Programm.carMenu(Programm.java:194)
+	at carsharing.Programm.chooseCompanyMenu(Programm.java:229)
+	at carsharing.Programm.companyMenu(Programm.java:163)
+	at carsharing.Programm.run(Programm.java:29)
+	at carsharing.Main.main(Main.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-16 19:26:33 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 19:26:34 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 19:26:34 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:02:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:02:40 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:02:40 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:07:56 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:07:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:07:57 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:09:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:09:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:09:02 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:13:34 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:13:34 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:13:34 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:14:16 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:14:16 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:14:16 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:16:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:16:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:16:00 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:17:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:17:55 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:17:56 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:18:54 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:18:55 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:18:55 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:19:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:19:36 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:19:37 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:20:17 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:20:18 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:20:18 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:23:15 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:23:15 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:23:15 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:23:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:23:44 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:23:44 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:25:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:25:41 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:25:41 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:25:42 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-02-16 20:27:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:27:14 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:27:14 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:27:15 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-02-16 20:29:11 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:29:11 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:29:11 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:29:59 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:30:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:30:00 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:31:26 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:31:26 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:31:26 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:31:27 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-02-16 20:32:33 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:32:33 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:32:33 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:32:34 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-02-16 20:33:16 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:33:16 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:33:16 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:33:17 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-02-16 20:37:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:37:39 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:37:39 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:39:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:39:13 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:39:13 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:39:28 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:39:28 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:39:28 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:40:17 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:40:17 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:40:17 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:40:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:40:41 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:40:41 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:42:16 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:42:16 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:42:16 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:45:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:45:49 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:45:49 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:47:04 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:47:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:47:04 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:47:31 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:47:31 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:47:31 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:56:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:56:40 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:56:40 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:56:41 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT ID, NAME,COMPANY_ID FROM CAR WHERE COMPANY_ID = 1 AND ID NOT IN SELECT[*] RENTED_CAR_ID FROM CUSTOMER WHERE RENTED_CAR_ID IS NOT NULL)"; expected "("; SQL statement:
+SELECT ID, NAME,COMPANY_ID FROM CAR WHERE COMPANY_ID = 1 AND ID NOT IN SELECT RENTED_CAR_ID FROM CUSTOMER WHERE RENTED_CAR_ID IS NOT NULL) [42001-200]
+2023-02-16 20:56:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT ID, NAME,COMPANY_ID FROM CAR WHERE COMPANY_ID = 1 AND ID NOT IN SELECT[*] RENTED_CAR_ID FROM CUSTOMER WHERE RENTED_CAR_ID IS NOT NULL)"; expected "("; SQL statement:
+SELECT ID, NAME,COMPANY_ID FROM CAR WHERE COMPANY_ID = 1 AND ID NOT IN SELECT RENTED_CAR_ID FROM CUSTOMER WHERE RENTED_CAR_ID IS NOT NULL) [42001-200]
+2023-02-16 20:56:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT ID, NAME,COMPANY_ID FROM CAR WHERE COMPANY_ID = 1 AND ID NOT IN SELECT[*] RENTED_CAR_ID FROM CUSTOMER WHERE RENTED_CAR_ID IS NOT NULL)"; expected "("; SQL statement:
+SELECT ID, NAME,COMPANY_ID FROM CAR WHERE COMPANY_ID = 1 AND ID NOT IN SELECT RENTED_CAR_ID FROM CUSTOMER WHERE RENTED_CAR_ID IS NOT NULL) [42001-200]
+2023-02-16 20:57:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:57:46 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:57:46 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
+2023-02-16 20:58:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+SELECT ID, NAME FROM COMPANY [42102-200]
+2023-02-16 20:58:22 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+SELECT ID, NAME, COMPANY_ID FROM CAR [42102-200]
+2023-02-16 20:58:22 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+SELECT ID, NAME, RENTED_CAR_ID FROM CUSTOMER [42102-200]
